@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Storage>
+  <Project Version="8.1" />
+  <Addins>
+    <addin-list valType="String">[Ansys.ParameterManager.ParameterManagerAddin, Ansys.ANSYS.Core.Addin, Ansys.Meshing.Core.Addin, Ansys.DesignModeler.Core.Addin]</addin-list>
+    <Addin Name="Ansys.ParameterManager.ParameterManagerAddin" Version="7.3" />
+    <Addin Name="Ansys.ANSYS.Core.Addin" Version="18.1.0.0" />
+    <Addin Name="Ansys.Meshing.Core.Addin" Version="18.0.0.0" />
+    <Addin Name="Ansys.DesignModeler.Core.Addin" Version="17.1.1.0" />
+  </Addins>
+  <Containers>
+    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Geometry": Ansys.DesignModeler.Core.Addin:Geometry, "Mesh": Ansys.Meshing.Core.Addin:SimulationModel, "Setup": Ansys.ANSYS.Core.Addin:ANSYSSetup}</container-map>
+    <static-container-ids valType="String">{"Scopes": Scopes}</static-container-ids>
+    <Container Name="Scopes" Version="1.0">
+      <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:scopes</container-type>
+      <static-id valType="String">Scopes</static-id>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1318, "Input": 1319, "Output": 1318}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <Object Name="/Scopes/GlobalScope:GlobalScope" Version="1.0">
+        <class-type valType="String">GlobalScope</class-type>
+        <object-name valType="String">GlobalScope</object-name>
+        <member-data valType="String">{"DisplayText": "GlobalScope", "_fieldExpressionValidationContext": None, "functionProviders": [], "Parent": None}</member-data>
+      </Object>
+    </Container>
+    <Container Name="Geometry" Version="1.0">
+      <container-type valType="String">Ansys.DesignModeler.Core.Addin:Geometry</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">2962</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2993, "Input": 2960, "Output": 2960}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "Scopes": 0, "Geometry": 2790, "Mesh": 0, "Setup": 0}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Geometry/Geometry:GeometryDataObject" Version="1.0">
+        <class-type valType="String">Geometry</class-type>
+        <object-name valType="String">GeometryDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "GeometryDataObject", "_geometryFileRelativePath": r"dp0\SYS\DM\SYS.scdoc", "_geometryTeamcenterConnection": None, "_geometryPlugInName": "", "GeomFileReference": $$5e0bf43f-4a36-4c4c-9b1f-a76a9007f1a6, "GeomRepositoryFileReference": None, "GeometryImportSolidBodies": True, "GeometryImportSurfaceBodies": True, "GeometryImportLineBodies": True, "GeometryImportParameters": "CADImportParameterType_Independent", "GeometryImportParametersFilter": "", "GeometryImportCadAttributes": True, "GeometryImportCadAttributesFilter": "", "GeometryImportNamedSelections": True, "GeometryImportNamedSelectionsFilter": "", "GeometryImportMaterialProperties": True, "GeometryImportAnalysisType": "AnalysisType_3D", "GeometryImportCadAssociativity": True, "GeometryImportCoordinateSystems": True, "GeometryImportCoordinateSystemsFilter": "", "GeometryImportWorkPoints": True, "GeometryImportSavePartFile": False, "GeometryImportImportUsingInstances": True, "GeometryImportSmartUpdate": True, "GeometryImportComparePartsOnUpdate": "ComparePartsMethod_None", "GeometryImportComparePartsTolerance": "ComparePartsTolerance_Tight", "GeometryImportProcessEnclosures": True, "GeometryImportDecomposeDisjointFaces": True, "GeometryImportMixedResolutionOption": "MixedImport_None", "GeometryImportWeightclass": "ImportWeightclass_Heavyweight", "GeometryImportFlattenAssembly": True, "GeometryImportSpaceClaimExplodeUnsharedComponents": True, "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff", "ObjectState": 0, "UpstreamConnections": {}, "ImportedFeatures": {}, "IsSpaceClaimGeometry": True, "IsModelerModeEnabled": False, "_isModelerModeEnabled": False, "AreParametersOutOfDate": False, "RegisteredExternalFilesInfo": {"$$5e0bf43f-4a36-4c4c-9b1f-a76a9007f1a6": {"FilePathInDM": r"C:\Users\ahazi\AppData\Local\Temp\WB_DESKTOP-JC57JGM_ahazi_10316_2\unsaved_project_files\dp0\SYS\DM\SYS.scdoc", "FilePathAfterRepair": r"D:\Documents\2nd degree\Optimization\Spaceclaim Model\Backup_Model\Mesh_files\dp0\SYS\DM\SYS.scdoc", "IsFileRepaired": True, "CadSourceType": "SpaceClaim"}}, "AreParametersMigratedFromLegacyDatabaseImport": False}</member-data>
+        <properties-setByUserFlag-data valType="String">["ObjectState"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Geometry/TransferData:Geometry" Version="1.0">
+        <class-type valType="String">TransferData</class-type>
+        <object-name valType="String">Geometry</object-name>
+        <member-data valType="String">{"DisplayText": "Geometry", "ConnectionKeys": ["8ef0fdf7-d7a8-4d46-a352-06109111d48a"], "Data": $$87433d31-8f56-41e5-a616-5b5dd377fbad}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 1" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 1</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 2" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 2</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 3" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 3</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 4" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 4</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 5" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 5</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 6" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 6</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 7" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 7</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 8" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 8</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 9" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 9</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/SpaceClaimCallBackData:SCDataObject 10" Version="1.0">
+        <class-type valType="String">SpaceClaimCallBackData</class-type>
+        <object-name valType="String">SCDataObject 10</object-name>
+        <member-data valType="String">{"DisplayText": "SCDataObject", "Guid": "4170d0e7-b131-48a8-8396-c278f66ce5ff"}</member-data>
+      </Object>
+      <Object Name="/Geometry/ParameterAdapter1:DesignModelerParameter" Version="1.0">
+        <class-type valType="String">Ansys.Core.DataModel.DataObjects.DynamicDataObject, Ans.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ansys.Core.DataModel.DataObjects.ParameterAdapterTypeSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "JournalVariableName": "parameterAdapter1", "Methods": {}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": True}, "Value": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308"}, "ParameterName": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "Access": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}}, "DataTypeHierarchy": "ParameterAdapter1,ParameterAdapter,DataEntity"}</type-spec>
+        <object-name valType="String">DesignModelerParameter</object-name>
+        <member-data valType="String">{"DisplayText": "DesignModelerParameter", "Value": "50", "ParameterName": "Filament_Width", "Access": "eGeometryParameterInput"}</member-data>
+        <properties-setByUserFlag-data valType="String">["Value"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Geometry/ParameterAdapter2:DesignModelerParameter" Version="1.0">
+        <class-type valType="String">Ansys.Core.DataModel.DataObjects.DynamicDataObject, Ans.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ansys.Core.DataModel.DataObjects.ParameterAdapterTypeSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "JournalVariableName": "parameterAdapter2", "Methods": {}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": True}, "Value": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308"}, "ParameterName": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "Access": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}}, "DataTypeHierarchy": "ParameterAdapter2,ParameterAdapter,DataEntity"}</type-spec>
+        <object-name valType="String">DesignModelerParameter</object-name>
+        <member-data valType="String">{"DisplayText": "DesignModelerParameter", "Value": "100", "ParameterName": "Filament_Distance", "Access": "eGeometryParameterInput"}</member-data>
+        <properties-setByUserFlag-data valType="String">["Value"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Geometry/ParameterAdapter3:DesignModelerParameter" Version="1.0">
+        <class-type valType="String">Ansys.Core.DataModel.DataObjects.DynamicDataObject, Ans.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ansys.Core.DataModel.DataObjects.ParameterAdapterTypeSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "JournalVariableName": "parameterAdapter3", "Methods": {}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": True}, "Value": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308"}, "ParameterName": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "Access": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}}, "DataTypeHierarchy": "ParameterAdapter3,ParameterAdapter,DataEntity"}</type-spec>
+        <object-name valType="String">DesignModelerParameter</object-name>
+        <member-data valType="String">{"DisplayText": "DesignModelerParameter", "Value": "37", "ParameterName": "Slice_Thickness", "Access": "eGeometryParameterInput"}</member-data>
+        <properties-setByUserFlag-data valType="String">["Value"]</properties-setByUserFlag-data>
+      </Object>
+    </Container>
+    <Container Name="Mesh" Version="1.0">
+      <container-type valType="String">Ansys.Meshing.Core.Addin:SimulationModel</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 2981, "Input": 2981, "Output": 2981}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{"MechanicalModel": 2982, "MechanicalMesh": 2982}</outputs-generated-by-type>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "Scopes": 0, "Geometry": 2962, "Mesh": 0, "Setup": 0, "Geometry 1": 0}</last-update-regen-times>
+      <unique-system-dir valType="String">SYS</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Mesh/SimulationConnection:SimulationConnection" Version="1.0">
+        <class-type valType="String">SimulationConnection</class-type>
+        <object-name valType="String">SimulationConnection</object-name>
+        <member-data valType="String">{"DisplayText": "SimulationConnection", "_IsAssemblyMeshing": None, "_MeshingSolverSetting": None, "Caption": "SimulationConnection", "EventIdToDataReferenceMap": {}, "DSIdToDataReferenceMap": {"11": {"CellModel": $$6d268429-335a-4940-b8a7-c820eddeb35a}, "10": {"CellModel": $$6d268429-335a-4940-b8a7-c820eddeb35a}, "12": {"CellModel": $$6d268429-335a-4940-b8a7-c820eddeb35a}}, "Attributes": {}}</member-data>
+      </Object>
+      <Object Name="/Mesh/MechanicalSystemType:SystemType for Any|Any|Any" Version="1.0">
+        <class-type valType="String">MechanicalSystemType</class-type>
+        <object-name valType="String">SystemType for Any|Any|Any</object-name>
+        <member-data valType="String">{"DisplayText": None, "PhysicsType": "Any", "AnalysisType": "Any", "SolverType": "Any", "PhysicsTypeDisplayString": "Any", "AnalysisTypeDisplayString": "Any", "SolverTypeDisplayString": "Any", "SystemTypeCombination": None, "DelimitedSystemTypeCominbation": None, "SetupEntityType": "SimulationSetup", "SolutionEntityType": "SimulationSolution", "ResultsEntityType": "SimulationResults", "SetupDataEntityType": "MechanicalSetup", "SolutionDataEntityType": "MechanicalSolution", "ResultsDataEntityType": "MechanicalResults", "Id": None, "SystemName": "SYS", "SystemID": "SYS", "ICEngineAutoSetup": False, "ICEngineMeshSettings": "Edit Mesh Settings", "ICEngineMeshPanelValues": None, "RefMeshSize": "0 [mm]"}</member-data>
+      </Object>
+      <Object Name="/Mesh/MeshingMesh:MeshingMeshDataObject" Version="1.0">
+        <class-type valType="String">MeshingMesh</class-type>
+        <object-name valType="String">MeshingMeshDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "MeshingMeshDataObject", "Caption": "Mesh", "MeshId": 12}</member-data>
+        <custom-data>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ImportedMeshFileType valType="String">0</ImportedMeshFileType>
+          <value-keys valType="String">{"AttentionRequired": System.Boolean, "ImportedMeshFileType": System.Int32}</value-keys>
+          <dictionary-keys valType="String">[transferDataMap]</dictionary-keys>
+          <transferDataMap>
+            <dictionary-keys valType="String">[AnsysMesh]</dictionary-keys>
+            <AnsysMesh>
+              <Name valType="String">AnsysMesh</Name>
+              <Guid0 valType="String">2a3f078d-b351-4391-a384-27ccfb969fd1</Guid0>
+              <UpToDate valType="String">False</UpToDate>
+              <value-keys valType="String">{"Name": System.String, "Guid0": System.String, "UpToDate": System.Boolean}</value-keys>
+            </AnsysMesh>
+          </transferDataMap>
+        </custom-data>
+      </Object>
+      <Object Name="/Mesh/MeshingGeneratedMeshOutputProvider:MeshingGeneratedMeshOutputProvider" Version="1.0">
+        <class-type valType="String">MeshingGeneratedMeshOutputProvider</class-type>
+        <object-name valType="String">MeshingGeneratedMeshOutputProvider</object-name>
+        <member-data valType="String">{"DisplayText": "MeshingGeneratedMeshOutputProvider", "DataConnections": [], "TransferDataObject": $$aa12a6f1-03cd-4ff0-84d5-34637d847ce3, "VersionNumber": 1, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
+      </Object>
+      <Object Name="/Mesh/GeneratedMeshOutputForAQWAModelProvider:GeneratedMeshOutputForAQWAModelProvider" Version="1.0">
+        <class-type valType="String">GeneratedMeshOutputForAQWAModelProvider</class-type>
+        <object-name valType="String">GeneratedMeshOutputForAQWAModelProvider</object-name>
+        <member-data valType="String">{"DisplayText": "GeneratedMeshOutputForAQWAModelProvider", "DataConnections": [], "TransferDataObject": $$d08c374d-8369-48bc-937a-52ee8f356ee7, "PMDBFile": None, "ACMOFile": None, "Mechdb": None, "UnitSystem": None}</member-data>
+      </Object>
+      <Object Name="/Mesh/OutputsGeneratedManagerDataEntityType:OutputsGeneratedManagerObject" Version="1.0">
+        <class-type valType="String">OutputsGeneratedManagerDataEntityType</class-type>
+        <object-name valType="String">OutputsGeneratedManagerObject</object-name>
+        <member-data valType="String">{"DisplayText": "OutputsGeneratedManagerObject", "outputGeneratedTimes": {}}</member-data>
+      </Object>
+      <Object Name="/Mesh/MeshProperties:MeshProperties" Version="1.0">
+        <class-type valType="String">MeshProperties</class-type>
+        <object-name valType="String">MeshProperties</object-name>
+        <member-data valType="String">{"DisplayText": "MeshProperties", "saveMeshFileInSeparateFile": True}</member-data>
+      </Object>
+      <Object Name="/Mesh/ContainerConnections:ModelContainerConnections" Version="1.0">
+        <class-type valType="String">ContainerConnections</class-type>
+        <object-name valType="String">ModelContainerConnections</object-name>
+        <member-data valType="String">{"DisplayText": "ModelContainerConnections", "Connections": {"Geometry": {"$$87433d31-8f56-41e5-a616-5b5dd377fbad": {"Geometry": ["8ef0fdf7-d7a8-4d46-a352-06109111d48a"]}}}}</member-data>
+      </Object>
+      <Object Name="/Mesh/MechanicalModel:MechanicalModel" Version="1.0">
+        <class-type valType="String">MechanicalModel</class-type>
+        <object-name valType="String">MechanicalModel</object-name>
+        <member-data valType="String">{"DisplayText": "MechanicalModel", "Caption": "Model", "File": $$5f58728a-c4e7-4c83-80fe-0dc18989f254, "MeshFile": $$5eaa1890-6be3-4dd9-ac36-35fa578a6c2c, "EdaFile": None, "ModelId": 10, "PrototypeId": 11, "ModelHash": "c3a91ead-235a-4b30-bb2e-dc0a38400fe3", "GeometryHash": "c3a91ead-235a-4b30-bb2e-dc0a38400fe3", "IsResetNotRequired": False}</member-data>
+        <custom-data>
+          <File valType="String">5f58728a-c4e7-4c83-80fe-0dc18989f254</File>
+          <FilePath valType="String"></FilePath>
+          <AttentionRequired valType="String">False</AttentionRequired>
+          <ParameterValueModified valType="String">False</ParameterValueModified>
+          <IsModifiedDueToModelAssemblyPropertyChange valType="String">False</IsModifiedDueToModelAssemblyPropertyChange>
+          <AttachType valType="String">2</AttachType>
+          <value-keys valType="String">{"File": System.String, "FilePath": System.String, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean, "IsModifiedDueToModelAssemblyPropertyChange": System.Boolean, "AttachType": System.Int32}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Mesh/ParameterAdapter2:9f33e6bc-7da8-423f-89c8-4da7ca6c0e22" Version="1.0">
+        <class-type valType="String">Ansys.Meshing.Core.DataModel.Parameters.DynamicParameterObject, Ans.Meshing.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ansys.Core.DataModel.DataObjects.ParameterAdapterTypeSpec, Ans.Core", "Access": "UserWritable", "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "JournalVariableName": "parameterAdapter2", "Methods": {}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": True}, "Value": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "Default": "0.0007 [m]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Length"}, "WorkbenchParameterId": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Default": "", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "Access": {"SpecType": "Ansys.Core.DataSpecs.EnumSpec`1[[Ansys.Meshing.Core.DataModel.Parameters.ParameterAccess, Ans.Meshing.Core]], Ans.Core", "Access": "UserWritable", "Default": "SimulationParameterInput", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "OptionLabels": "SimulationParameterInput, SimulationParameterOutput", "ShouldTranslateOptionLabels": True}, "Type": {"SpecType": "Ansys.Core.DataSpecs.EnumSpec`1[[Ansys.Meshing.Core.DataModel.Parameters.ParameterType, Ans.Meshing.Core]], Ans.Core", "Access": "UserWritable", "Default": "SimulationParameterDouble", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "OptionLabels": "SimulationParameterDouble, SimulationParameterInteger, SimulationParameterString, SimulationParameterBool", "ShouldTranslateOptionLabels": True}, "Name": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "Default": "", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "FolderDSId": {"SpecType": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib]], Ans.Core", "Access": "UserWritable", "Default": -1, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "UndefinedValue": 2147483647}, "FrameworkParameterReference": {"SpecType": "Ansys.Core.DataModel.DataReferenceSpec, Ans.Core", "Access": "UserWritable", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}}, "DataTypeHierarchy": "ParameterAdapter2,ParameterAdapter,DataEntity"}</type-spec>
+        <object-name valType="String">9f33e6bc-7da8-423f-89c8-4da7ca6c0e22</object-name>
+        <member-data valType="String">{"DisplayText": "9f33e6bc-7da8-423f-89c8-4da7ca6c0e22", "Value": "0.0035 [m]", "WorkbenchParameterId": "9f33e6bc-7da8-423f-89c8-4da7ca6c0e22", "Access": "SimulationParameterInput", "Type": "SimulationParameterDouble", "Name": "Mesh Element Size", "FolderDSId": 12, "FrameworkParameterReference": $$9aade42b-e465-4b60-970a-5221b64b7478}</member-data>
+        <properties-setByUserFlag-data valType="String">["Value"]</properties-setByUserFlag-data>
+        <custom-data>
+          <ParamDataRef valType="String">9aade42b-e465-4b60-970a-5221b64b7478</ParamDataRef>
+          <IsParameterValueModified valType="String">False</IsParameterValueModified>
+          <value-keys valType="String">{"ParamDataRef": System.String, "IsParameterValueModified": System.Boolean}</value-keys>
+          <dictionary-keys valType="String">[Attributes]</dictionary-keys>
+          <Attributes />
+        </custom-data>
+      </Object>
+    </Container>
+    <Container Name="Setup" Version="1.0">
+      <container-type valType="String">Ansys.ANSYS.Core.Addin:ANSYSSetup</container-type>
+      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
+      <deleted-sources valType="String">[]</deleted-sources>
+      <last-updated valType="Int64">0</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1880, "Input": 1892, "Output": 1871}</last-modified-by-usage>
+      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
+      <unique-system-dir valType="String">APDL</unique-system-dir>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
+      <Object Name="/Setup/MapdlSetup:SetupDataObject" Version="1.0">
+        <class-type valType="String">MapdlSetup</class-type>
+        <object-name valType="String">SetupDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "SetupDataObject", "CommandLineOptions": "", "DatabaseMemory": 1024, "WorkspaceMemory": 2048, "Processors": 2, "JobName": "file", "License": "", "Graphics": "WIN32", "Distributed": False, "MPIType": "Undefined", "MachineList": "", "GPUAccelerator": "None", "NumberOfGpusPerMachine": 1, "ReadStartAns": True, "CustomExecutablePath": "", "DownloadDistributedFiles": True, "InputFiles": [$$3b3fdd54-63fc-40c1-8a01-84f59309a9ac], "ReferenceFiles": [], "SetupHash": "62a928cc-8c5a-4308-8c8a-f02a94edeb3a"}</member-data>
+      </Object>
+      <Object Name="/Setup/MAPDLCdb:CDBDataObject" Version="1.0">
+        <class-type valType="String">MAPDLCdb</class-type>
+        <object-name valType="String">CDBDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "CDBDataObject", "Guids": [], "Data": None, "AuxiliaryFiles": None, "TransferFile": None}</member-data>
+      </Object>
+      <Object Name="/Setup/MAPDLDatabase:DatabaseDataObject" Version="1.0">
+        <class-type valType="String">MAPDLDatabase</class-type>
+        <object-name valType="String">DatabaseDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "DatabaseDataObject", "Guids": [], "Data": None, "AuxiliaryFiles": None, "TransferFile": None}</member-data>
+      </Object>
+      <Object Name="/Setup/MAPDLSolution:ResultsDataObject" Version="1.0">
+        <class-type valType="String">MAPDLSolution</class-type>
+        <object-name valType="String">ResultsDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "ResultsDataObject", "Guids": [], "Data": None, "AuxiliaryFiles": None, "TransferFile": None}</member-data>
+      </Object>
+      <Object Name="/Setup/MAPDLResults:SolverDataDataObject" Version="1.0">
+        <class-type valType="String">MAPDLResults</class-type>
+        <object-name valType="String">SolverDataDataObject</object-name>
+        <member-data valType="String">{"DisplayText": "SolverDataDataObject", "Guids": [], "Data": None, "AuxiliaryFiles": None}</member-data>
+      </Object>
+      <Object Name="/Setup/HiddenPollingComponentSolveSettings:HiddenPollingComponentSolveSettings" Version="1.0">
+        <class-type valType="String">HiddenPollingComponentSolveSettings</class-type>
+        <object-name valType="String">HiddenPollingComponentSolveSettings</object-name>
+        <member-data valType="String">{"DisplayText": "HiddenPollingComponentSolveSettings", "UpdateOption": "Foreground", "PortalConnection": {"OptionIcons": None, "OptionLabels": "", "Options": "", "ReadOnlyOptions": None, "OptionFeatureFlags": None, "OptionFilterFlags": None, "OptionLicenseFlags": None, "Value": None}, "PortalQueue": {"OptionIcons": None, "OptionLabels": "", "Options": "", "ReadOnlyOptions": None, "OptionFeatureFlags": None, "OptionFilterFlags": None, "OptionLicenseFlags": None, "Value": None}, "RsmUserString": None, "ConfiguredQueue": {"OptionIcons": None, "OptionLabels": "Local", "Options": "Local", "ReadOnlyOptions": None, "OptionFeatureFlags": None, "OptionFilterFlags": None, "OptionLicenseFlags": None, "Value": "Local"}, "RsmJobName": "Workbench", "EnablePolling": True, "PollingInterval": "120 [s]", "ExecutionMode": "Serial", "NumberOfProcesses": 2}</member-data>
+      </Object>
+      <Object Name="/Setup/ExpertProperties:ExpertProperties" Version="1.0">
+        <class-type valType="String">ExpertProperties</class-type>
+        <object-name valType="String">ExpertProperties</object-name>
+        <member-data valType="String">{"DisplayText": "ExpertProperties", "ImportantNote": "These options are visible because a development environment variable is set", "ExpertPropertiesString": "", "EnableDebug": False, "EnableValidation": False, "EnableTesting": False, "EnableErrorReporting": True, "EnableWarningReporting": True, "EnableInfoReporting": False, "EnableFileBasedCommunication": False, "EnableSocketCommunication": False, "EnableFailureCauseReporting": True}</member-data>
+      </Object>
+      <Object Name="/Setup/ExtendedComponentSettingsForRsmDpUpdate:ExtendedComponentSettingsForRsmDpUpdate" Version="1.0">
+        <class-type valType="String">ExtendedComponentSettingsForRsmDpUpdate</class-type>
+        <object-name valType="String">ExtendedComponentSettingsForRsmDpUpdate</object-name>
+        <member-data valType="String">{"DisplayText": "ExtendedComponentSettingsForRsmDpUpdate", "SerialOnly": False, "UseLimitOnNumberOfCores": False, "LimitOnNumberOfCores": 2, "SharedMemoryParallel": False}</member-data>
+      </Object>
+      <Object Name="/Setup/SimulationGeneratedMeshTransferData:SimulationGeneratedMeshTransferData" Version="1.0">
+        <class-type valType="String">SimulationGeneratedMeshTransferData</class-type>
+        <object-name valType="String">SimulationGeneratedMeshTransferData</object-name>
+        <member-data valType="String">{"DisplayText": "SimulationGeneratedMeshTransferData", "FileName": "", "Deleted": False, "Data": $$7f432e66-731c-40d4-a9b6-15256e5a4342, "Key": "2a3f078d-b351-4391-a384-27ccfb969fd1", "UpstreamContainer": "Mesh"}</member-data>
+      </Object>
+    </Container>
+  </Containers>
+</Storage>

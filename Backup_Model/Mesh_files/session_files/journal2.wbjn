@@ -1,0 +1,18 @@
+# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+system1 = GetSystem(Name="SYS")
+meshComponent1 = system1.GetComponent(Name="Mesh")
+meshComponent1.Refresh()
+mesh1 = system1.GetContainer(ComponentName="Mesh")
+mesh1.Edit()
+mesh1.Exit()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometry1.Exit()
+meshComponent1.Refresh()
+mesh1.Edit()
+mesh1.Exit()
+Save(Overwrite=True)
+Update()
+Save(Overwrite=True)

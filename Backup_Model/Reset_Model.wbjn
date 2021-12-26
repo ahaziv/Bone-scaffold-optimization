@@ -1,0 +1,7 @@
+﻿# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+Open(FilePath=GetAbsoluteUserPathName("2nd degree/Optimization/Spaceclaim Model/Backup_Model/Mesh.wbpj"))
+Save(
+    FilePath=GetAbsoluteUserPathName("2nd degree/Optimization/Spaceclaim Model/Mesh.wbpj"),
+    Overwrite=True)

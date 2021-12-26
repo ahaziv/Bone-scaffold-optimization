@@ -1,0 +1,12 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by ANSYS Workbench.
+# Project name: Mesh
+# Creation date: 11/04/2019 09:08:45
+# 
+# 11/04/2019 09:08:45
+# The parameters defined in the project are:
+# ,P1 - Filament_Width,P2 - Filament_Distance,P3 - Slice_Thickness
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P1,P2,P3
+DP 0,0,0,0

@@ -1,0 +1,21 @@
+# encoding: utf-8
+# Release 19.0
+SetScriptVersion(Version="19.0.136")
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+parameter1 = Parameters.GetParameter(Name="P1")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="33.27776673552049 [mm]")
+parameter2 = Parameters.GetParameter(Name="P2")
+designPoint1.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="49.37460913784167 [mm]")
+parameter3 = Parameters.GetParameter(Name="P3")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="29.74218342372905 [mm]")
+parameter4 = Parameters.GetParameter(Name="P4")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="0.002994999006196844 [m]")
+Update()
