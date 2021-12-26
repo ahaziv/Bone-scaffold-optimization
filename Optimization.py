@@ -9,6 +9,10 @@ import csv
 import copy
 import sys
 
+# This main optimization script designs a pipline to optimize scaffold geometry.
+# IMPORTANT! while this code requires a minimal amount of adjustments to run on any windows system, 
+# you still need to change the lines: "D:\programs\ANSYS Inc\\v190\Framework\\bin\Win64\\runwb2"
+# to your oun ANSYS WB version sol it will work, changes must be inserted in create_mesh and reset_model functions
 
 def generate_population(pop_sze, bounds, constraint):
     population = np.zeros((pop_sze, len(bounds)))
