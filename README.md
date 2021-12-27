@@ -7,5 +7,6 @@ This project was built using different existing programs and is written in diffe
 * Python 3.7
 * ANSYS workbench 2018 - API language - IronPython
 * SpaceClaim 2018 (ANSYS add on) - API language - Python, Version R18
+
 After making sure all of the above are set and ready, please create the following directory tree as shown in this repository.
 Make sure as well to change the ANSYS installation file path in the python optimization functions to match the path of your system.
